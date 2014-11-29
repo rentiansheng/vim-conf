@@ -61,7 +61,7 @@
 [submodule "bundle/gundo"]
 	path = bundle/gundo
 	url = https://github.com/sjl/gundo.vim
-[submodule "bundle/doxygen"]
-    path = bundle/doxygen
-    url = https://github.com/vim-scripts/DoxygenToolkit.vim.git
 
+[submodule "bundle/doxygen"]
+	path = bundle/doxygen
+	url = https://github.com/vim-scripts/DoxygenToolkit.vim.git
