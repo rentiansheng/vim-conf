@@ -21,7 +21,7 @@ set writebackup
 set nocompatible
 set backspace=2
 set backup
-set backupdir = ~/.vim/bak
+set backupdir=~/.vim/bak
 
 syntax enable
 set background=dark
