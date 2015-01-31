@@ -37,8 +37,8 @@
     
     <C + r> : 相对行号/绝对行号的控制
     <C + h> : 文件时光机功能
-###doxygon（注释）
-   :DoxAuthor     文档头部注释
+####doxygon（注释）
+   :DoxAuthor     文档头部注释   
    :Dox           函数注释
    关于注释是需要配置的。具体的配置方法查看：http://www.vim.org/scripts/script.php?script_id=987
 ####Conque-Shell 
