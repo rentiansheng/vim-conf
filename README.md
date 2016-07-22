@@ -1,6 +1,6 @@
 #openvims
 
-一个针对 PHP /C 开发人员的Vim脚本
+一个针对 PHP / C / GO 开发人员的Vim脚本
 
 ##安装
 ###版本要求
