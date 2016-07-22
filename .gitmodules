@@ -77,3 +77,6 @@
 [submodule "bundle/vim-go"]
 	path = bundle/vim-go
 	url = https://github.com/fatih/vim-go
+[submodule "bundle/auto_mkdir"]
+	path = bundle/auto_mkdir
+	url = https://github.com/DataWraith/auto_mkdir
