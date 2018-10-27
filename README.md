@@ -1,12 +1,12 @@
-#openvims
+# openvims
 
 一个针对 PHP / C / GO 开发人员的Vim脚本
 
-##安装
-###版本要求
+## 安装
+### 版本要求
     要求VIM >=7.3  如果版本较低，请装最新版的vim
 
-###安装步骤
+### 安装步骤
     0.    cd ~
     1.    git clone https://github.com/rentiansheng/vim-conf .vim
     2.    cd .vim
@@ -14,20 +14,20 @@
     4.    git submodule update
     5.    /bin/sh Install.sh 
 
-##插件管理
-####新增Vim插件, 使用如下命令
+## 插件管理
+#### 新增Vim插件, 使用如下命令
 
     git submodule add https://github.com/scrooloose/nerdcommenter.git bundle/nerdcommenter
 
-####删除Vim插件, 使用如下命令
+#### 删除Vim插件, 使用如下命令
 
     1.git rm -r --cache bundle/nerdcommenter
     2.rm -rf bundle/nerdcommenter
     3.修改.gitmodules ,删除相关节点
 
-##插件使用说明   
+## 插件使用说明   
 
-####默认配置
+#### 默认配置
 
     <leader> = ,   :下文中的<leader> 用此替代符
     <C + c> : 关闭当前buff
@@ -36,26 +36,26 @@
     
     <C + r> : 相对行号/绝对行号的控制
     <C + h> : 文件时光机功能
-####doxygon（注释）
+#### doxygon（注释）
    :DoxAuthor     文档头部注释   
    :Dox           函数注释           
    关于注释是需要配置的。具体的配置方法查看：http://www.vim.org/scripts/script.php?script_id=987
-####Conque-Shell 
+#### Conque-Shell 
 
     在Vim中打开Terminal的插件
     :ConqueTerm bash 打开终端
     :ConqueTermSplit 分隔窗口方式打开终端 
     
-####OmniCppComplete
+#### OmniCppComplete
     
     C/C++代码自动补全增强插件
 
-####checksyntax_vim
+#### checksyntax_vim
 
     语法检查插件
     F5 启用检查(文件保存后自动检查)
     
-####cscope
+#### cscope
     
     语法标签生成,代码阅读插件
     F6 生成当前目录的语法标签 (只跟踪 .php .phtml .java .c .cpp .h)文件
@@ -66,18 +66,18 @@
     <C + g> s: 查找所有出现处
     <C + g> c: 查找调用记录
     
-####easygrep
+#### easygrep
 
     关键字查找插件
     <leader>vv 查找关键字
     
-####file-line
-####fuzzyfinder
+#### file-line
+#### fuzzyfinder
     
     文件查找插件(支持通配符) 
     F4 开启
     
-####nerdcommenter
+#### nerdcommenter
 
     用来给代码添加注释
     <leader>cc 添加注释
@@ -86,7 +86,7 @@
     <leader>cm 段注释
     <leader>cs 漂亮的注释
     
-####nerdtree
+#### nerdtree
     
     项目目录导航
     F2 开启/关闭
@@ -97,28 +97,28 @@
     R  更新当前目录
     t  在新标签中打开当前文件
     
-####snipMate
+#### snipMate
     
     代码块生成
     for/foreach/class/func + tab 生成代码段
     语法文件: ~/.vim/snippets/*.snippets
     
-####solarized
+#### solarized
     
     默认模板自带的管理插件
-####space
-####supertab
+#### space
+#### supertab
     
     代码自动提醒插件
-####tabular
+#### tabular
 
     文本对齐插件
     :Tab /=  按等号对齐
-####tagbar
+#### tagbar
     
     标签阅读插件(兼容面向对象语言)
     F3 显示/关闭
-####vcscommand
+#### vcscommand
     
     版本控制插件(支持Git,Svn)
     :VCSAdd 向源添加文件
@@ -133,8 +133,8 @@
     :VCSUpdate 更新当前文件到源中版本
     :VCSVimDiff 查看当前文件与历史版本的差别
 
-####vim-l9
-####vim-powerline
+#### vim-l9
+#### vim-powerline
     
     状态栏增强插件
     
